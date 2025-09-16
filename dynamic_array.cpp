@@ -6,13 +6,16 @@ using namespace std;
 
 int main(){
     vector <int> arr;
-    arr.push_back(1);
-    arr.push_back(2);
-    arr.push_back(3);
-    arr.pop_back();
-    arr.push_back(4);
-    arr.pop_back();
-    arr.clear();
+cout<<"enter array size"<<endl;
+    int n;
+    cin>>n;
+    for(int i=0 ;i<n;i++){
+        int x;
+        cin>>x;
+        arr.push_back(x);
+    }
+
+  ;
 
     for(int i=0 ;i<arr.size();i++){
         cout<<arr[i]<<endl;
